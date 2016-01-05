@@ -18,7 +18,23 @@
     <![endif]-->
   </head>
   <body>
+    <nav class="navbar navbar-static-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header"><a href="/" class="navbar-brand">سبزنامه</a>
+        </div>
+        <div class="nav navbar-nav navbar-right">
+          <li><a href="#">Item 1</a></li>
+          <li><a href="#">Item 2</a></li>
+          <li><a href="#">Item 3</a></li>
+        </div>
 
+        <div class="nav navbar-nav navbar-left">
+          <li><span class="navbar-text">سلام، امیر</span></li>
+          <li><a href="#">خروج</a></li>
+        </div>
+
+      </div>
+    </nav>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="{{URL::asset('js/jquery.min.js')}}"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
