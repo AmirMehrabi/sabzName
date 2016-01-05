@@ -10,7 +10,7 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
+Route::get('backend/dashboard', ['as' => 'backend.dashboard', 'uses' => 'Backend\DashboardController@index']);
 Route::get('/', 'PagesController@showIndex');
 Route::get('/about', 'PagesController@showAboutUs');
 Route::get('/books', 'PagesController@showBooks');
