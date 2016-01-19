@@ -1,8 +1,6 @@
 @extends('tmpl.frontend')
 
-
 @section('title', 'صفحه اصلی')
-
 
 @section('content')
 <div class="row">
